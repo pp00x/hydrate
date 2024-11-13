@@ -1,0 +1,70 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+main
+
+# Build outputs
+/build/
+bin/
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+
+# Output of the 'go test' command
+*.test
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Config files
+config.yaml
+config.toml
+config.json
+
+# Environment variables file
+.env
+
+# Logs and debug files
+*.log
+
+# IDE/editor directories and files
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Postman collections
+*.postman_collection.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Coverage reports
+coverage.out
+
+# Generated code
+generated/
+
+# Package-lock files
+package-lock.json
+yarn.lock
+
+# Static assets
+assets/dist/
+
+# Temporary files created by code analysis tools
+heapdump*
