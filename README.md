@@ -254,7 +254,7 @@ The server will start on the configured port (default is `8080`).
 ## Project Structure
 
 ```
-water-intake-tracker/
+hydrate/
 ├── cmd/
 │   └── server/        # Entry point of the application
 ├── config/            # Configuration files and initialization
