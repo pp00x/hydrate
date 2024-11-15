@@ -9,6 +9,8 @@ import (
 func SetupRouter() *gin.Engine {
     r := gin.Default()
 
+    r.Use(middleware.CorsMiddleware())
+
     api := r.Group("/api/v1")
     {
         api.POST("/register", handler.Register)
